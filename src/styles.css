@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background: #1e1e1e;
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.right-panel {
+    width: 280px;
+    background: #1e1e1e;
+    padding: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.stat-card {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.charts,
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.chart-box {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.chart-box h4 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #0f0f0f;
+    color: #aaa;
+    padding: 14px 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    overflow-y: auto;
+}
+
+
+/* Profile */
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-left: 4px;
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    background: #2a2a2a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px;
+}
+
+.brand {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+/* Section */
+
+.section {
+    margin-bottom: 18px;
+}
+
+.section-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    padding: 0 6px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+/* Menu Items */
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li {
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.section ul li .icon {
+    font-size: 14px;
+    min-width: 18px;
+}
+
+.section ul li .dot {
+    font-size: 18px;
+    margin-right: 6px;
+    color: #666;
+}
+
+
+/* Hover */
+
+.section ul li:hover {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+
+/* Active */
+
+.section ul li.active {
+    background: #2a2a2a;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/* Submenu */
+
+.sub-menu {
+    margin-left: 28px;
+    margin-top: 4px;
+}
+
+.sub-menu li {
+    padding: 6px 10px;
+    font-size: 12px;
+    color: #888;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sub-menu li:hover {
+    background: #1a1a1a;
+    color: #fff;
+}
